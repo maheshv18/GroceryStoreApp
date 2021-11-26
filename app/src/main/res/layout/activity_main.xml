@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/login">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Grocery Shopping App"
+       android:textColor="@color/green"
+
+       android:layout_gravity="center"
+       android:textStyle="bold"
+       android:clickable="true"
+       android:onClick="onClick"
+       android:id="@+id/del"
+       android:textSize="25sp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:orientation="vertical"
+       android:layout_marginTop="50dp"
+       android:padding="5dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:text="Username"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="38dp"
+          android:background="#30ffffff"
+          android:hint="Enter User Name"
+          android:layout_marginBottom="10dp"
+          android:id="@+id/username"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:text="Mobile"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:inputType="phone"
+          android:id="@+id/mobile"
+          android:layout_height="38dp"
+          android:background="#30ffffff"
+          android:layout_marginBottom="10dp"
+          android:hint="Enter Mobile"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:text="Email"/>
+      <EditText
+          android:layout_width="match_parent"
+          android:hint="Enter Email"
+          android:inputType="textEmailAddress"
+          android:layout_height="38dp"
+          android:background="#30ffffff"
+          android:id="@+id/email"/>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center"
+       android:layout_margin="15dp">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Login"
+          android:layout_marginRight="5dp"
+
+          android:id="@+id/login"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Register"
+          android:layout_marginRight="5dp"
+          android:id="@+id/register"/>
+
+
+   </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

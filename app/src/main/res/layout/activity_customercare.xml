@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custtom"
+    tools:context=".Customercare">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customerservice"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:src="@drawable/ic_baseline_account_box_24"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Myorder"
+        android:id="@+id/bu1"
+        />
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:src="@drawable/ic_baseline_card_giftcard_24"
+        android:layout_marginLeft="300dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View offers%"
+        android:id="@+id/bu2"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_baseline_help_center_24"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently asked questions"
+
+        android:id="@+id/bu3"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_baseline_report_24"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit problem"
+        android:layout_gravity="right"
+        android:id="@+id/bu4"/>
+
+</LinearLayout>

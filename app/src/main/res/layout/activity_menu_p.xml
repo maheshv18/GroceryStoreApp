@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment6"
+    android:id="@+id/ll"
+    tools:context=".menu_p">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARD DETAILS:"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/m"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"></Space>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card number:"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your card number:"
+        android:drawableStart="@drawable/ic_baseline_credit_card_24"
+        android:id="@+id/cd"
+        android:textColorHint="@color/black"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"></Space>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry date"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter mm/yy:"
+        android:textColorHint="@color/black"/>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="30dp"></Space>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CVV"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter CVV number:"
+        android:id="@+id/cv"
+        android:textColorHint="@color/black"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"></Space>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card holder name:"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name on your card:"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:id="@+id/cn"
+        android:textColorHint="@color/black"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp">
+
+    </Space>
+
+    <Button
+        android:id="@+id/v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validate" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="150dp"></Space>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Pay now" />
+
+
+</LinearLayout>
