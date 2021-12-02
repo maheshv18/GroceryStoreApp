@@ -8,20 +8,21 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 Examples of behavior that contributes to a positive environment for our community include:
 
 <h2>Demonstrating empathy and kindness toward other people</h2><br>
-Being respectful of differing opinions, viewpoints, and experiences<br>
-Giving and gracefully accepting constructive feedback<br>
-Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience<br>
-Focusing on what is best not just for us as individuals, but for the overall community<br>
+<ol>
+  <li>Being respectful of differing opinions, viewpoints, and experiences</li>
+<li>Giving and gracefully accepting constructive feedback</li>
+<li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience</li>
+<li>Focusing on what is best not just for us as individuals, but for the overall community</li></ol><br>
 <h3>Examples of unacceptable behavior include:</h3><br>
-
-The use of sexualized language or imagery, and sexual attention or advances of any kind
-Trolling, insulting or derogatory comments, and personal or political attacks<br>
-Public or private harassment<br>
-Publishing others’ private information, such as a physical or email address, without their explicit permission<br>
-Other conduct which could reasonably be considered inappropriate in a professional setting<br>
-Enforcement Responsibilities<br>
-MCIT Online Student Association’s Executive Board members are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.<br>
-
+<ol>
+<li>The use of sexualized language or imagery, and sexual attention or advances of any kind</li>
+<li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+<li>Public or private harassment</li>
+<li>Publishing others’ private information, such as a physical or email address, without their explicit permission</li>
+<li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+Enforcement Responsibilities</li></ol>
+MCIT Online Student Association’s Executive Board members are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+<br>
 Members of the Executive Board have the right and responsibility to remove, edit, or reject any communications or contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.<br>
 
 <h2>Scope</h2><br>
@@ -56,7 +57,7 @@ This Code of Conduct is adapted from the Contributor Covenant, version 2.0, avai
 
 Community Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.
 
-For answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.<br>
+For answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.<br><br><br>
 ![alt text](https://github.com/maheshv18/GroceryStoreApp/blob/master/app/src/assets_img/register.JPG) &nbsp; &nbsp; ![alt text](https://github.com/maheshv18/GroceryStoreApp/blob/master/app/src/assets_img/Login.JPG)
 <br>
 ![alt text](https://github.com/maheshv18/GroceryStoreApp/blob/master/app/src/assets_img/menu.JPG) &nbsp; &nbsp; ![alt text](https://github.com/maheshv18/GroceryStoreApp/blob/master/app/src/assets_img/menu1.JPG)
